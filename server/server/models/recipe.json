@@ -1,0 +1,42 @@
+[
+  {
+    "id":1,
+    "name":"Fried Rice",
+    "Ingredient":"rice,cabage",
+    "Description":"Boil water",
+    "user":"boss",
+    "reviews":[],
+    "upvotes":15
+  },
+
+  {
+    "id":2,
+    "name":"Porridge",
+    "Ingredient":"yam,oil",
+    "Description":"Boil water",
+    "user":"mariam",
+    "reviews":[],
+    "upvotes":17
+  },
+
+  {
+    "id":3,
+    "name":"garri",
+    "Ingredient":"sugar,nutt",
+    "Description":"boil water",
+    "user":"lucas2",
+    "reviews":[],
+    "upvotes":12
+  },
+  
+  {
+    "id":4,
+    "recipe":"plantain",
+    "Ingredient":"sugar,nutt",
+    "Equipment":"cup,spoon",
+    "user":"lucas",
+    "reviews":[],
+    "upvotes":20
+  }
+
+]
