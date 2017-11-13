@@ -8,6 +8,7 @@ import bodyParser from 'body-parser';
 
 const app = express();
 
+
 /**
  * log request to the console
  */
