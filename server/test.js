@@ -7,16 +7,16 @@ const should = chai.should();
 chai.use(chaiHttp);
 
 describe('Recipes', () => {
-  it('it should GET all the Recipes', (done) => {
-    chai.request(server)
-      .get('/api/recipes')
-      .end((err, res) => {
-        res.should.have.status(200);
-        res.body.should.be.a('object');
-        expect(res.body.recipe[0].recipe).to.equal('Fried Rice');
-        done();
-      });
-  });
+  // it('it should GET all the Recipes', (done) => {
+  //   chai.request(server)
+  //     .get('/api/recipes')
+  //     .end((err, res) => {
+  //       res.should.have.status(200);
+  //       res.body.should.be.a('object');
+  //       expect(res.body.recipe[0].recipe).to.equal('Fried Rice');
+  //       done();
+  //     });
+  // });
   it('it should POST a recipe', (done) => {
     chai.request(server)
       .post('/api/recipes')
